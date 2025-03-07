@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+
+@media screen and (max-width: 768px) {
+    .wpost {
+        height: 38px;
+        width: auto;
+        margin: 3px;
+        margin-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1rem;
+        color: black;
+        background-color: black;
+        border: 1px solid black;
+        text-decoration: none;
+        outline: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cr {
+        height: 38px;
+        width: auto;
+        margin: 3px;
+        margin-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        font-size: 1rem;
+        color: black;
+        background-color: black;
+        border: 1px solid black;
+        border: none;
+        text-decoration: none;
+        outline: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .ott {
+        color: white;
+    }
+
+    h1 {
+        margin: 2px;
+
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nav_temp {
+        padding: 3px;
+    }
+
+    .fa,
+    .fas {
+        padding: 3px;
+    }
+}
+
+.logo {
+    font-weight: bolder;
+    color: #8783d8;
+    padding-left: 1.2rem;
+    letter-spacing: 0.9rem;
+}
+
+.hnav{
+    background-color: white;
+}
+
+.nav__link{
+    font-weight: 700;
+    color: black;
+    letter-spacing: 0.2rem;
+}
+
+.nav__link:hover{
+    color: #8783d8;
+    transition: 0.7s;
+}
